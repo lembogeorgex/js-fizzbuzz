@@ -5,18 +5,11 @@ console.log("JS OK");
 for (let i = 1; i <= 100; i++) {
     console.log(i)
 
+let content = i;
 
-if (!(i % 15)) {
-    console.log("fizzbuzz")
-}
-else if ( (!i % 3)) {
-    console.log("Fizz")
-}
-else if ( (!i % 5)){
-        console.log("buzz")
-    }
+if (!(i % 15)) content = "fizzbuzz"
+else if ( (!i % 3)) content = "fizz"
+else if ( (!i % 5)) content = "buzz"
 
-else{
-    console.log(i)
-}
+    console.log(content)
 }
