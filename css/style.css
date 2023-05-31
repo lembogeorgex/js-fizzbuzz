@@ -8,11 +8,31 @@ ul {
     flex-wrap: wrap;
     margin: 50px auto;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 1000px;
 }
 
 ul li {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border: 5px solid blue;
     background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li.buzz {
+    background-color: yellow;
+}
+
+ul li.fizz {
+    background-color: red;
+}
+
+ul li.fizzbuzz {
+    background-color: greenyellow;
 }
