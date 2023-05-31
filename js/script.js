@@ -6,20 +6,16 @@ for (let i = 1; i <= 100; i++) {
     console.log(i)
 }
 
-if (!(i & 3 ) && (!i & 5)) {
+if (!(i % 15)) {
     console.log("fizzbuzz")
 }
 else if ( (!i % 3)) {
     console.log("Fizz")
 }
-    else if ( (!i % 5)){
+else if ( (!i % 5)){
         console.log("buzz")
     }
 
-
-    else if (!(i & 3 ) && (!i & 5)){
-        console.log("fizzbuzz")
-    }
 else{
     console.log(i)
 }
