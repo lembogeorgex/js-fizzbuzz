@@ -4,7 +4,7 @@ console.log("JS OK");
 
 for (let i = 1; i <= 100; i++) {
     console.log(i)
-}
+
 
 if (!(i % 15)) {
     console.log("fizzbuzz")
@@ -18,4 +18,5 @@ else if ( (!i % 5)){
 
 else{
     console.log(i)
+}
 }
